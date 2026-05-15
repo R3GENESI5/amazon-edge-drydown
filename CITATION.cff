@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or derived data, please cite the associated paper and the archived code release."
+type: software
+title: "amazon-edge-drydown: analysis pipeline for deforestation edge effects on Amazon soil moisture persistence"
+authors:
+  - family-names: "Bin Shahid"
+    given-names: "Ali"
+    orcid: "https://orcid.org/0009-0003-9709-4241"
+    affiliation: "PSKL Water for All, Islamabad, Pakistan"
+repository-code: "https://github.com/R3GENESI5/amazon-edge-drydown"
+license: MIT
+date-released: "2026-05-15"
+keywords:
+  - Amazon basin
+  - deforestation
+  - edge effects
+  - soil moisture
+  - SMAP
+  - Hansen Global Forest Change
+  - restoration
+  - hydrology
+  - moisture residence time
+  - tropical forest
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Bin Shahid"
+      given-names: "Ali"
+      orcid: "https://orcid.org/0009-0003-9709-4241"
+      affiliation: "PSKL Water for All, Islamabad, Pakistan"
+  title: "Deforestation Edge Effects on Soil Moisture Persistence in the Amazon Basin: Observational Evidence for Lateral Hydrological Degradation and Minimum Viable Restoration Scales"
+  year: 2026
+  status: "in-preparation"

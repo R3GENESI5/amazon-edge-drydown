@@ -1,0 +1,71 @@
+# ══════════════════════════════════════════════════════════════
+# Public repo: analysis code + canonical figures only.
+# Raw data (3+ GB), dev debris, and the paper manuscript itself
+# are kept on local disk but excluded from the public release.
+# ══════════════════════════════════════════════════════════════
+
+# ── Paper manuscript (distributed via preprint server) ───────
+manuscript/
+*.tex
+*.bib
+*.bbl
+*.aux
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# ── Raw data (too large; see data/README.md for sources) ─────
+data/era5/
+data/hansen/
+data/smap/
+data/boundaries/
+data/mapbiomas/
+data/modis/
+data/prodes/
+*.nc
+*.nc4
+*.hdf5
+*.h5
+*.tif
+*.tiff
+
+# ── Dev debris (probe scripts, run logs, scratch outputs) ────
+scripts/_*.py
+scripts/_*.txt
+scripts/test_*.py
+scripts/*_log.txt
+scripts/*_out.txt
+scripts/*_err.txt
+scripts/*_info.txt
+
+# ── Python / Jupyter ─────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ── Build / output / cache ───────────────────────────────────
+out/
+output/
+.pytest_cache/
+
+# ── OS / Editor ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Secrets ──────────────────────────────────────────────────
+.env
+*.netrc
+earthdata_credentials.txt
+
+# ── Figures: keep PNGs, exclude alternate formats ────────────
+figures/journal/
+
+# ── Local stale archive ──────────────────────────────────────
+stale/
