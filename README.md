@@ -1,9 +1,11 @@
 # Companion Code — *Deforestation Edge Effects on Soil Moisture Persistence in the Amazon Basin: Observational Evidence for Lateral Hydrological Degradation and Minimum Viable Restoration Scales*
 
+[![DOI](https://zenodo.org/badge/1239407745.svg)](https://doi.org/10.5281/zenodo.20339594)
+
 **Author:** Ali Bin Shahid · ORCID [0009-0003-9709-4241](https://orcid.org/0009-0003-9709-4241)
 **Affiliation:** PSKL Water for All, Islamabad, Pakistan
 **Paper status:** In preparation (preprint pending)
-**Code DOI:** Zenodo (to be minted on release)
+**Code DOI:** [10.5281/zenodo.20339594](https://doi.org/10.5281/zenodo.20339594) (all-versions)
 
 ---
 
